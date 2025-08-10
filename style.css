@@ -1,0 +1,177 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #1a3b5d;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+nav {
+  background: #2c5282;
+  padding: 1rem 0;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-list a:hover {
+  color: #ffd700;
+}
+
+.section {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #1a3b5d;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.skills-list li {
+  background: #e2e8f0;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #2d3748;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.project-card h3 {
+  color: #1a3b5d;
+  margin-bottom: 0.5rem;
+}
+
+.project-card .tech {
+  font-size: 0.9rem;
+  color: #4a5568;
+  margin-bottom: 1rem;
+}
+
+.project-card pre {
+  background: #f0f4f8;
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  text-align: left;
+  border: 1px solid #d0d8e0;
+}
+
+.contact-list {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.contact-list li {
+  margin: 0.7rem 0;
+  font-size: 1.1rem;
+}
+
+.contact-list a {
+  color: #2c5282;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  color: #1a3b5d;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  background: #1a3b5d;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.language-switch {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 100;
+}
+
+.lang-btn {
+  background: #2c5282;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.lang-btn:hover {
+  background: #1a3b5d;
+}
