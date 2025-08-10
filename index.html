@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR" id="html-tag">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mayra Brito - SAP Developer</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Botão de Troca de Idioma -->
+  <div class="language-switch">
+    <button onclick="setLanguage('pt')" class="lang-btn">PT</button>
+    <button onclick="setLanguage('en')" class="lang-btn">EN</button>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <div class="profile-info">
+        <img src="profile.jpg" alt="Mayra Brito" class="profile-img"/>
+        <h1 class="name" data-en="Mayra Brito" data-pt="Mayra Brito"></h1>
+        <p class="title" data-en="SAP ABAP | Fiori | BTP Developer" data-pt="Desenvolvedora SAP ABAP | Fiori | BTP"></p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navegação -->
+  <nav>
+    <ul class="nav-list">
+      <li><a href="#home" data-en="Home" data-pt="Início">Início</a></li>
+      <li><a href="#about" data-en="About" data-pt="Sobre">Sobre</a></li>
+      <li><a href="#skills" data-en="Skills" data-pt="Habilidades">Habilidades</a></li>
+      <li><a href="#projects" data-en="Projects" data-pt="Projetos">Projetos</a></li>
+      <li><a href="#contact" data-en="Contact" data-pt="Contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- Seção Home -->
+  <section id="home" class="section">
+    <h2 data-en="Hi, I'm Mayra" data-pt="Olá, eu sou Mayra">Olá, eu sou Mayra</h2>
+    <p data-en="SAP Developer passionate about building efficient and scalable enterprise solutions using ABAP, Fiori, and SAP BTP." 
+       data-pt="Desenvolvedora SAP apaixonada por criar soluções corporativas eficientes e escaláveis usando ABAP, Fiori e SAP BTP.">
+      Desenvolvedora SAP apaixonada por criar soluções corporativas eficientes e escaláveis usando ABAP, Fiori e SAP BTP.
+    </p>
+  </section>
+
+  <!-- Seção Sobre -->
+  <section id="about" class="section">
+    <h2 data-en="About Me" data-pt="Sobre Mim">Sobre Mim</h2>
+    <p data-en="I am a SAP developer with solid technical knowledge in ABAP OO, CDS Views, Fiori Elements, SAP Gateway, SAP BTP, and SAP HANA. Although I have experience as an end-user in SAP FI, I am now fully focused on development, building modern and integrated enterprise applications. I am committed to clean code, usability, and performance optimization in the SAP ecosystem." 
+       data-pt="Sou desenvolvedora SAP com sólidos conhecimentos técnicos em ABAP OO, CDS Views, Fiori Elements, SAP Gateway, SAP BTP e SAP HANA. Embora tenha experiência como usuária final em SAP FI, agora estou totalmente focada em desenvolvimento, criando aplicações corporativas modernas e integradas. Sou comprometida com código limpo, usabilidade e otimização de performance no ecossistema SAP.">
+      Sou desenvolvedora SAP com sólidos conhecimentos técnicos em ABAP OO, CDS Views, Fiori Elements, SAP Gateway, SAP BTP e SAP HANA. Embora tenha experiência como usuária final em SAP FI, agora estou totalmente focada em desenvolvimento, criando aplicações corporativas modernas e integradas. Sou comprometida com código limpo, usabilidade e otimização de performance no ecossistema SAP.
+    </p>
+  </section>
+
+  <!-- Seção Habilidades -->
+  <section id="skills" class="section">
+    <h2 data-en="Technical Skills" data-pt="Habilidades Técnicas">Habilidades Técnicas</h2>
+    <ul class="skills-list">
+      <li>ABAP OO</li>
+      <li>CDS Views</li>
+      <li>Fiori Elements (List Report, Object Page)</li>
+      <li>SAP Gateway & OData Services</li>
+      <li>SAP BTP (Basic Concepts, Cloud Foundry)</li>
+      <li>SAP HANA (Modeling, SQLScript)</li>
+      <li>Web Dynpro ABAP</li>
+      <li>REST/SOAP Integration</li>
+      <li>Git & CI/CD (Basic)</li>
+    </ul>
+  </section>
+
+  <!-- Seção Projetos -->
+  <section id="projects" class="section">
+    <h2 data-en="Projects" data-pt="Projetos">Projetos</h2>
+    <div class="projects-grid">
+      <!-- Projeto será inserido via JS -->
+    </div>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contact" class="section">
+    <h2 data-en="Contact Me" data-pt="Contato">Contato</h2>
+    <p data-en="Feel free to reach out for collaborations or opportunities!" 
+       data-pt="Sinta-se à vontade para entrar em contato para colaborações ou oportunidades!">
+      Sinta-se à vontade para entrar em contato para colaborações ou oportunidades!
+    </p>
+    <ul class="contact-list">
+      <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/mayrabrito" target="_blank">LinkedIn</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/mayrabrito" target="_blank">GitHub</a></li>
+      <li><i class="fas fa-envelope"></i> <a href="mailto:mayra.brito@email.com">mayra.brito@email.com</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mayra Brito. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
